@@ -1,0 +1,132 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4243909515,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.inicioTeste(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "acessar tela de bate papo uol",
+        "description": "",
+        "id": "validar-tela-instrução;acessar-tela-de-bate-papo-uol",
+        "after": [
+          {
+            "result": {
+              "duration": 205517706,
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d72.0.3626.121)\n  (Driver info: chromedriver\u003d2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027GX2-015\u0027, ip: \u0027192.168.0.205\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\\Users\\FELIPE~1.COE\\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51572}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}\nSession ID: 0cbee097ad2bd549b7cb4b4eff2d04ea\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:438)\r\n\tat br.com.gx2.steps.Steps.finalTeste(Steps.java:73)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\r\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\r\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "Steps.finalTeste()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 4982205331,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que estou no site uol \"https://www.uol.com.br/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.uol.com.br/",
+                  "offset": 23
+                }
+              ],
+              "location": "Steps.queEstouNoSiteUol(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 78755662448,
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d72.0.3626.121)\n  (Driver info: chromedriver\u003d2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform\u003dWindows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027GX2-015\u0027, ip: \u0027192.168.0.205\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\\Users\\FELIPE~1.COE\\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51572}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}\nSession ID: 0cbee097ad2bd549b7cb4b4eff2d04ea\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:294)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:22)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.funcoes.PrintScreen.capturar(PrintScreen.java:23)\r\n\tat br.com.gx2.steps.Steps.euColocarOMouseSobreOMenu(Steps.java:54)\r\n\tat ✽.Quando eu colocar o mouse sobre o menu \"//*[@id\u003d\u0027menuHorizontal\u0027]/ul/li[2]/a/span\"(src/test/resources/features/uolTest.feature:7)\r\n",
+              "status": "failed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "# E estou na pagina tela inicial"
+              }
+            ],
+            "line": 7,
+            "name": "eu colocar o mouse sobre o menu \"//*[@id\u003d\u0027menuHorizontal\u0027]/ul/li[2]/a/span\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//*[@id\u003d\u0027menuHorizontal\u0027]/ul/li[2]/a/span",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.euColocarOMouseSobreOMenu(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "clicar com o mouse sobre o link \"Amizade\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Amizade",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.clicarComOMouseSobreOLink(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "deve ser exibida tela com o texto \"TODAS AS SALAS\" no campo \"/html/body/div[4]/header/h1\"  #xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TODAS AS SALAS",
+                  "offset": 35
+                },
+                {
+                  "val": "/html/body/div[4]/header/h1",
+                  "offset": 61
+                }
+              ],
+              "location": "Steps.deveSerExibidaTelaComOTextoNoCampoXpath(String,String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Validar tela instrução",
+    "description": "",
+    "id": "validar-tela-instrução",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/uolTest.feature"
+  }
+]
